@@ -1,0 +1,38 @@
+{
+  "name": "node-ram-db",
+  "version": "1.0.0",
+  "description": "Implementation of an API with a database in memory.",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js",
+    "test": "nodemon src/index.js",
+    "debug": "nodemon src/index.js --inspect"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/omermoreno78/node-ram-db.git"
+  },
+  "keywords": [
+    "node",
+    "nodejs",
+    "node-js",
+    "express",
+    "expressjs",
+    "express-js",
+    "picodb"
+  ],
+  "author": "Omer Moreno <omermoreno78@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/omermoreno78/node-ram-db/issues"
+  },
+  "homepage": "https://github.com/omermoreno78/node-ram-db#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "picodb": "^0.12.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
